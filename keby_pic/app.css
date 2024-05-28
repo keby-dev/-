@@ -1,0 +1,94 @@
+body {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url("./background.jpg");
+}
+
+.container {
+    width: 390px;
+    background-color: #6495ED;
+    height: 100%;
+}
+
+.photos {
+    margin-top: 30px;
+}
+
+.photo-frame {
+    background-color: white;
+    margin: 15px 20px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-title {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.f-date {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#image1 {
+    background-image: url('./abs.jpg');
+}
+
+#image2 {
+    background-image: url('./shouder_muscles.jpg');
+}
+
+#image3 {
+    background-image: url('./nahologym.jpg');
+}
+
+#image4 {
+    background-image: url('./food.jpg');
+}
+
+.photo_description {
+    color: white;
+    background-color: black;
+
+    width: fit-content;
+    padding: 0 20px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+
+    transform: translate(-50%);
+    left: 50%;
+    opacity: 0;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+.showText {
+    opacity: 0;
+    /**투명도 설정**/
+}
+
+.hideText {
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헬짱네컷</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Pen+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <script type="text/javascript" src="action.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="image1" class="photo-frame" onmouseover="showText(1)" onmouseout="hideText(1)"
+                onclick="alertText(1)">
+                <span id="desc1" class="photo_description">
+                    복근밥
+                </span>
+            </div>
+            <div id="image2" class="photo-frame" onmouseover="showText(2)" onmouseout="hideText(2)"
+                onclick="alertText(2)">
+                <span id="desc2" class="photo_description">
+                    송죽동 어깨퀸
+                </span>
+            </div>
+            <div id="image3" class="photo-frame" onmouseover="showText(3)" onmouseout="hideText(3)"
+                onclick="alertText(3)">
+                <span id="desc3" class="photo_description">
+                    나홀로짐에_까치산역점
+                </span>
+            </div>
+            <div id="image4" class="photo-frame">
+                <!-- <span id="desc1" class="photo_description">
+                    좋아하는 식단❤️
+                </span> -->
+                <iframe class="video" width="560" height="315"
+                    src="https://www.youtube.com/embed/RcMrrXjPgoA?si=SYxY4y_uBStKHUf9" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="f-title">오운띙</p>
+            <p class="f-date">2024.05.28</p>
+        </div>
+    </div>
+</body>
+
+</html>
